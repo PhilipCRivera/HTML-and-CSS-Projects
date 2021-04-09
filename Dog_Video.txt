@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang = "en">
+           <head>
+	      <title>Whacky Dog Videos</title>
+            </head>
+             <body>
+	        <main>
+	         <h1>Whacky Dog Videos</h1>
+                          <p>Watch and see what these whacky dogs do!</p>
+	         <a href="https://www.youtube.com/watch?v=1HygThMLzGs">Whacky Dogs on Youtube!</a>

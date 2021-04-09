@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "en">
+        <head>
+                  <title>Gotta Catch'em All!</title>
+         </head>
+          <body>
+	       <main>
+                       <h1>Bulbasaur </h1>
+                        <p>Bulbasaur is one of my favorite pokemon! Who doesn't love its' little bulb on its back</p>
+	        <img src ="https://img.17qq.com/images/crrcareuchx.jpeg">
+	        </main>
+                        <h2>Pickachu</h2>
+	         <p>Pikachu is my second favorite pokemon! Her electric attacks really spark!</p>
+                         <h3>Squirtle</h3>
+	          <p>Squirtle is my thirs favorite pokemon! His shell is so shiny!</p>
+	       <footer>
+	       <a href="https://www.pokemon.com/us/">Check out the Official Pokemon Website!</a>
+                       </footer>
+          </body>
+</html>
+	        
