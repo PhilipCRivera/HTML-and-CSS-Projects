@@ -2,6 +2,7 @@
 <html lang ="en">
            <body>
 	<h1>Marvel's Avengers Table</h1>
+	<link rel="stylesheet" type="text/css" href="CSS_Table.css">
 	<table style="width: 100%">
 	     <tr>
 	        <th>Name</th>
@@ -28,5 +29,6 @@
 	            <td>menolikebanner@hulksmash.com</td>
 	      </tr>
 	</table>
+	<img src="https://i.annihil.us/u/prod/marvel/i/mg/8/d0/4bb602be4357b/detail.jpg"> 
         </body>
 </html>	
