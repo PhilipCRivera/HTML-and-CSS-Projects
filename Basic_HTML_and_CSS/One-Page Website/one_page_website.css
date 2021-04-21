@@ -11,8 +11,8 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
-    color: rgb(7, 149, 192);
-    background-color: rgb(7, 149, 192);
+    color: rgb(255, 8, 173);
+    background-color: rgb(7, 172, 248);
 }
 
 footer,
@@ -46,7 +46,7 @@ h1::after { /* This is the underline */
 
 h2 {
     line-height: 50px;
-    color: #8d10f3;
+    color: #f310af;
 }
 
 h3 {
@@ -156,22 +156,22 @@ section {
     padding-top: 350px; /* This is spacer before the Main title Logo */
     padding-bottom: 500px; /* This is spacer after the Main title Logo */
     color:rgb(225, 250, 2); 
-    font-size: larger;
-    font-weight: strong;
+    
 }
 
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
     font-variant: small-caps;
-    color: silver;
+    color: rgb(196, 247, 12);
     letter-spacing: 5pt;
     word-spacing: 21pt;
     font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
+    font-weight: bolder;
     line-height: 2;
     font-weight: 900;
-    border: 5px double #fff;
+    border: 5px double rgb(3, 127, 243);
     padding: 10px;
 }
 
