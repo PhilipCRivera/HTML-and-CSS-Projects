@@ -1,0 +1,19 @@
+/*==================================================
+    CSS STYLING FOR CODE ERROR ASSIGNMENT
+====================================================*/
+body {
+    color: darkblue; 
+    background-color: lightblue; 
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    border: 2px dotted red;
+}
