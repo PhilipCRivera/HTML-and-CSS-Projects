@@ -19,7 +19,7 @@
     margin: 0% auto;
     position: relative;
     padding: 15px 4%;
-    border: 1px solid #a09da2;
+    border: 1px solid #9d9fa2;
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
     border-radius: 6px;
     /*background-color: #052136;*/
@@ -31,7 +31,7 @@
 }
 
 .menu li:hover {
-    color: rgb(187, 255, 0);
+    color: #f00;
     background-color: rgba(100,65,0,.3);
 }
 

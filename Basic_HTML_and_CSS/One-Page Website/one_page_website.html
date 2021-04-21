@@ -4,13 +4,14 @@
 		<meta charset="utf-8">
 		<title>The Future is Robots!</title>
 		<link rel="stylesheet" href="one_page_website.css">
-    </head>
+		<link rel="stylesheet" href="one_page_animation.css"
+	</head>
     <body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container"> 
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#contacts" id="link"><li>MEMBERSHIP</li></a>
@@ -21,9 +22,9 @@
 		
 		<!-- Home -->
 		<div id="home">
-			<div>
-				<div>
-					<span>ROBOT COMPANIONS!</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">ROBOT COMPANIONS!</span>
 					<p>The Future is Here! Your Robot Companions are here to make your life easier!
 				</div>
 			</div>
@@ -33,14 +34,15 @@
 		<!-- GAllery -->
 		<section> 
 			<div id="gallery">
+				<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- Photo_Container 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./robots/robot images/robotpic_1.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Learn More!</h3>
 								<p>Lil' Robbie can't wait to be your new Robot Buddy!</p>
 							</div>
@@ -51,10 +53,10 @@
 				<!-- End Photo_Container 1 -->
 				
 				<!-- Photo_Container 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 						    <img src="./robots/robot images/robotpic_2.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Learn More!</h3>
 								<p>Eric is a great friend to kids and pets alike!</p>
 							</div>
@@ -65,10 +67,10 @@
 				<!-- End Photo_Container 2 -->
 				
 				<!-- Photo_Container 3 -->
-					<div>
-						<div>
+					<div class="photo-container" >
+						<div class="photo">
 						    <img src="./robots/robot images/robotpic_3.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Learn More!</h3>
 								<p>Always eager to show off its dance skills, say hello to Pablo!</p>
 							</div>
@@ -79,10 +81,10 @@
 				<!-- End Photo_Container 3 -->
 				
 				<!-- Photo_Container 4 -->
-					<div>
-						<div>
-							<img src="./robot/robot images/robotpic_4.jpg" alt="">
-							<div>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./robots/robot images/robotpic_4.jpg" alt="">
+							<div class="photo-overlay">
 								<h3>Click to Learn More!</h3>
 								<p>Need a personal assistant? Emily will keep you on track no matter what!</p>
 							</div>
@@ -93,10 +95,10 @@
 				<!-- End Photo_Container 4 -->
 				
 				<!-- Photo_Container 5 -->
-					<div>
-						<div> 
+					<div class="photo-container">
+						<div class="photo"> 
 							<img src="./robots/robot images/robotpic_5.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Need help with household trouble? Then make it double with Jessie and James!</p>
 							</div>
@@ -111,19 +113,19 @@
 		</section>
 		<!-- End Gallery -->
 		
-		<!-- RSVP -->
-		<section>
-			<div id="contacts">
-				<div>
-					<h1>MEMBERSHIP</h1>
-					<div>
+			<!-- RSVP -->
+		<section id="contacts">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">MEMBERSHIP</h1>
+					<div class="membership">
 						<h2><span>Bring Home Your Next Robot Companion</span>
 							<br />The Future is Robots!
 						</h2>
-						<p>
+						<p class="form-rsvp">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="pst">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -132,16 +134,17 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>	
 		</section>
 		<!-- END RSVP -->
+		
 		
 		<!-- Video Section -->
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/E1AtfHm4hf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
@@ -150,7 +153,7 @@
 		<!-- END Video Section -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.robotcompanions.com &nbsp;|&nbsp; &copy; 2021
 		</div>
 		<!-- END FOOTER -->
