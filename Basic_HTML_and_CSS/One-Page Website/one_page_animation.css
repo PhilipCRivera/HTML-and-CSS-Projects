@@ -2,7 +2,7 @@
     MENU SECTION ANIMATION
 =========================================*/
 .menu {
-    color: #F00;
+    color: rgb(245, 7, 146);
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -14,12 +14,12 @@
 
 .menu li {
     color: #000;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 6, 125);
     display: inline-block;
     margin: 0% auto;
     position: relative;
     padding: 15px 4%;
-    border: 1px solid #9d9fa2;
+    border: 1px solid #0262f3;
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
     border-radius: 6px;
     /*background-color: #052136;*/
@@ -31,7 +31,7 @@
 }
 
 .menu li:hover {
-    color: #f00;
+    color: rgb(199, 241, 12);
     background-color: rgba(100,65,0,.3);
 }
 
@@ -66,7 +66,7 @@
 }
 
 .photo-overlay {
-    color: #fff;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 0;
     right: 0;
