@@ -11,7 +11,7 @@ h1 {
     font-family: "Trebuchet MS", Optima; /* Sets the font family of all the h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
-    color: #1a1a1a;
+    color: #0dbdf3;
 }
 
 /* Heading 1 element hover effect */
@@ -30,7 +30,7 @@ size by 1.1 */
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Bold;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* this expands the text slightly */
     font-size: 20px;
@@ -106,7 +106,7 @@ the element's area */
 
 /****** NAVBAR STYLING ********/
 .Navbar {
-    overflow: hidden; /* This ensures that any content that overflows beyeong the
+    overflow: hidden; /* This ensures that any content that overflows beyond the
 boundary of our nav bar is not displayed */
     background-color: rgb(231, 247, 7); /* This colors the navbar yellow */
     position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
