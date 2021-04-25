@@ -53,6 +53,7 @@ h1::after { /* This is the underline */
 h2 {
     line-height: 50px;
     color: #E91C1C;
+    text-align: center;
 }
 
 h3 {
@@ -72,6 +73,8 @@ p {
     font-weight: 300;
     line-height: 30px;
     padding-bottom: 15px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
 }
 
 .text-center {
