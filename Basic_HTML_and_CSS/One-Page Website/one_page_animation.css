@@ -54,14 +54,14 @@
 
 .photo-container {
     text-align: center;
-    margin: 15px auto;
-    width: 300px;
+    margin: 5px auto;
+    width: 900px;
     height: 169px;
 }
 
 .photo-container img {
     max-width: 100%;
-    width: 300px;
+    width: 500px;
     height: 169px;
 }
 
