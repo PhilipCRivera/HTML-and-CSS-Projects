@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Elements Challenge</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        
+        <p>Click the button to check the encoding of
+            this document.</p>
+        <button onclick="myFunction()">Try it</button>
+        
+        <p><strong>Note:</strong>Internet Explorer 8
+        and earlier does not suppor the characterSet
+        property</p>
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                var x = document.characterSet;
+                document.getElementById("demo").innerHTML = x;
+            }
+        </script>
+    </body>
+</html>

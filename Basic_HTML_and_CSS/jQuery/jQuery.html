@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+   
+    <script>
+        $(document).ready(function() {
+            $("html").append(
+                "<bod>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic JQUERY</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            $("#2").css({"color":"red"}); // this is will change the font color of paragraph 2 from black to red
+            $("#3").click(function () { // this click function is applied to paragraph 3, when clicked on
+                $('h1').hide(); //the header 1 will hide 
+            })
+        });
+
+    </script>
+    
+</html>
