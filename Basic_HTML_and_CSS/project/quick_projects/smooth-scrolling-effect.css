@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#section1 {
+    height: 600px;
+    background-color: tomato;
+}
+
+#section2 {
+    height: 600px;
+    background-color: rebeccapurple;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: chartreuse;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chartreuse;
+}
