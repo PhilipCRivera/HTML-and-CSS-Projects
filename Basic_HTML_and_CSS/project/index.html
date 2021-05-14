@@ -13,9 +13,10 @@
         <!--Navbar-->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
+            <a href="#Slideshow">Slideshow</a>
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact</a>
+            <a onclick="openForm()" ondblclick="closeForm()">Contact</a>
         </div>
 
         <!--Breaks inserted to add space between navbar and the first heading-->
@@ -50,11 +51,55 @@
                 </strong>
         </div>
 
+        <!-- Slideshow section added -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background">
+                <div id="Slideshow_Container">
+                    <!-- SLide 1 of 4 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./profile pic-square.jpg" alt="Picture of Myself">
+                        
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 4 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS">
+
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, and JS</div>
+
+                    </div>
+                    <!-- Slide 3 of 4 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./SQL_and_Database.jpg" alt="SQL logo">
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!-- Slide 4 of 4 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="./contactme.jpg" alt="Contact Me">
+                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a>
+                        </div>
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+
         <!--About section-->
         <div class="Row" id="About">
             <!--Left column-->
             <div class="Column_2">
-                <img src="./profile pic.jpg" alt="This is a picture of me">
+                <img src="./profilepic_4.jpg" alt="This is a picture of me">
             </div>
             <!--Right column-->
             <div class="Column_1">
@@ -64,12 +109,12 @@
                     When I'm not busy coding I'm creating digital art, singing my heart out at karaoke night, and enjoying time with my friends and family.
                     <br>
                     <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp and trained and 
-                    experienced in the following web and programming languages: HTML, CSS, Javascript.
+                    experienced in the following web and programming languages: HTML, CSS, Javascript, and SQL.
                     <br>
                     <br>I am a full-stack developer and would love to work with you on your project.<a href="#Contact">Contact</a> me below!
                 </p>
             </div>
-            
+        </div>  
             <!--GitHub section-->
             <div class="Row" id="GitHub">
                 <!--Left column-->
@@ -86,27 +131,29 @@
                     <a href="https://github.com/PhilipCRivera" target="_blank"><img src="./GitHub.png" alt="GitHub Logo"></a>
                 </div>
             </div>
-
-            <!--Contact section-->
-            <div class="Row" id="Contact">
-                <!--Contact image, left column-->
-                <div class="Column_2 Column_tall">
-                    <img src="./coding.jpg" alt="Contact_Image">
-                </div>
-                <!--Contact form, right column-->
-                <div class="Column_1 Column_tall">
+            <!-- Contact form -->
+            <div id="Contact">
+                <button onclick="openForm()" class="Pop_Up_Button">Contact</button>
+                <div class="form-popup" id="myForm">
+                    <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"><!-- 
+                        here we are using a free online service from https://formspree.io/ to sedn out contact form to an email address of our
+                    choosing- note: it will not run unless live on the internet, you have to push it to your online website first -->
                     <h1>Contact</h1>
-                    <!--This specifies where and how to send the form data; we are leaving it blank-->
-                    <form action="https://formspree.io/f/xnqlnkvp" method="POST"><!-- Here we are utilizing a 3rd party
-                    service to submit the contact form data, insert your formspree endpoint in the action
-                attribute-->
-                        <label>Name:</label>
-                            <input type="text" placeholder="Please enter your name here">
-                        <label>Email:</label>
-                            <input type="text" id="Email" name="Email" placeholder="Please enter you email here">
-                        <label>Message:</label>
-                            <input type="text" id="Message" name="Message" placeholder="Please write your message here">
-                            <input type="submit" value="SUBMIT">
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Please enter your name here" name="name" required>
+                    <label for="phone" aria-placeholder="Please enter your phone number here" name="phone"></label>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Please enter you email here" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                    <input type="text" placeholder="Please write your message here" name="message">
+
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                    </form>
+                </div>
+            </div>
+            
+                        
                      </form>
                 </div>
             </div>
@@ -118,6 +165,6 @@
                         <br>
                 </p>
             </footer>
-        </div>
+       <script src="./my-website.js"></script>
     </body>
 </html>
