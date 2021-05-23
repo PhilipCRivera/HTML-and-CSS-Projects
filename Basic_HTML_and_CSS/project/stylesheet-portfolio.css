@@ -11,7 +11,7 @@ html {
      opacity: 1; /* this and transition affect the page loading fade in effect */
      transition: 3s opactity; /* this causes a 3 second fade in */
      letter-spacing: .2vw; /* vw is a relative measurement, 1vw is equal to 1% of the viewpoint width */
-     font-family: Avant Garde, Helvetica;
+     font-family: American Typewriter, serif, cursive;
      font-size: 1.5vw;
      overflow-x: hidden; /* this prevents the horizontal scroll bar from appearing when the quote is hovered over */
      user-select: none; /* this prevents the text on the webpage from being highlighted by the user */
@@ -25,7 +25,8 @@ html {
  /* Heading 1 elements */
  h1 {
      text-transform: uppercase; /* capitalizing all h1 headings */
-     font-family: "Trebuchet MS", Optima; /* sets the font family for all h1 headings */
+     font-family: American Typewriter, serif, cursive; /* sets the font family for all h1 headings */
+     font-size: 50px;
      text-align: center; /* centering all h1 elements */
      margin-top: 3%; /* adds a small margin above h1 elements */
      color: rgb(120, 243, 157);
@@ -46,7 +47,7 @@ html {
 
  /* paragraph elements */
  p {
-     font-family: Perpetua, Rockwell Extra Bold;
+     font-family: 'Times New Roman', Times, serif Bold;
      text-align: justify; /* this justifies the text within paragrpah elements */
      letter-spacing: .1vw; /* this expands the text slightly */
      font-size: 1.5vw; /* Relative font sizing equal to 1.5% of the viewport width */
@@ -118,7 +119,7 @@ html {
  /***** Navbar styling *****/
  .Navbar {
     overflow: hidden; /*  this ensures that any content that overflows beyond the boundary of our navbar is not displayed */
-    background-color: rgb(216, 238, 93); /* this colors the navbar black */
+    background-color: rgb(59, 255, 165); /* this colors the navbar black */
     position: fixed; /* this keeps the navbar at the top of the screen as we scroll */
     top: 0; /* this ensures no space is displayed above the navbar */
     width: 100%; /* this makes the navbar span the entire width of the page */
@@ -134,7 +135,7 @@ html {
     color: white; /* This is the font color for text on our navbar */
     padding: .75vw 1vw; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-family: American Typewriter, serif, cursive; /* This specifies the font family for text on our navbar */
     font-size: 1.5vw; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
@@ -152,7 +153,7 @@ html {
 @media screen and (max-width: 576px) {
     .Navbar a{
         width: 20%; /* This sets each navbar link to 1/5 of the navbar */
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
@@ -166,7 +167,7 @@ html {
 
 /* navbar home button */
 .Navbar a.active { /* this targets a element on the navbar with the "active" class */
-   background-color: lightseagreen;
+   background-color: coral;
 }
 /***** End of Navbar Styling *****/
 /***** Video Styling *****/
@@ -337,7 +338,7 @@ html {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #9eeb6b;
+    background-color: coral;
  }
  
  /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
