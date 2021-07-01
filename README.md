@@ -7,9 +7,9 @@ This is a display of sample websites that I made with HTML and CSS
 
 • Robot Companion site
 
-• Movie Theater site
+• Academy Cinemas site
 
-# Space Station site
+# Space Station 
 This page is an example home page for a Space travel company. It's styled using 
 CSS and contains a navbar, image containers, and a form.
 
