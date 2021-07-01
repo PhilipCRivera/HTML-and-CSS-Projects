@@ -7,8 +7,6 @@ This is a display of sample websites that I made with HTML and CSS
 
 • Robot Companion site
 
-• My Portfolio site
-
 • Movie Theater site
 
 # Space Station site
@@ -18,11 +16,6 @@ CSS and contains a navbar, image containers, and a form.
 # Robot Companion
 This is an example home page for a Robot companion company. It's styled using
 CSS and contains a navbar, image containers, and a form.
-
-# My Portfolio site
-This is my portfolio page that gives some information on who I am. It's styled using 
-CSS and contains a navbar with moveNav animation effects, images that enlarge when
-hovered over, and a contact form to get in touch with me. 
 
 # Movie Theater site
 This page is an example home page for a Movie Theater that is styled using Bootstrap 4. 
