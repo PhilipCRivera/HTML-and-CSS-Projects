@@ -1,10 +1,12 @@
 /*=================================================
     PICTURE STYLES
 ===================================================*/
-
+body {
+    background-image: url(./pokemon3.jpg);
+}
 
 .photo-container {
-      background-image: url(./pokemon3.jpg);
+      background-image: url(./pokemon2.jpg);
       background-color: black;
       text-align: center;
       filter: grayscale(5%);
@@ -58,7 +60,10 @@
     filter: grayscale(25%);
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(253, 253, 19);
+    font-size: x-large;
+    
+    text-align: center;
     border-radius: black;
     padding: 20px;
     width: 100%;
@@ -86,6 +91,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: bold;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
 }
 
 /*==========================================
@@ -191,6 +200,7 @@ h1 {
     padding-top: 30px; /* size of chrome */
     height: 0; 
     overflow: hidden;
+   
 }
  
 .video-container iframe,
