@@ -17,6 +17,6 @@ CSS and contains a navbar, image containers, and a form.
 This is an example home page for a Robot companion company. It's styled using
 CSS and contains a navbar, image containers, and a form.
 
-# Movie Theater site
+# Academy Cinemas 
 This page is an example home page for a Movie Theater that is styled using Bootstrap 4. 
 It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns
