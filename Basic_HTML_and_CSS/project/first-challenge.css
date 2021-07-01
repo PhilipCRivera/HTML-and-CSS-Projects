@@ -7,7 +7,7 @@
       background-image: url(./pokemon3.jpg);
       background-color: black;
       text-align: center;
-      filter: grayscale(80%);
+      filter: grayscale(5%);
       border-radius: 20px;
       padding: 10px;
       width: 100%;
@@ -48,13 +48,14 @@
     color: black;
     font-size: 16px;
     padding: 16px 32px;
+    
 }
 
 /*===========================================
     CONTAINER HOLDING THE IMAGE AND THE TEXT
 =============================================*/
 .container {
-    filter: grayscale(80%);
+    filter: grayscale(25%);
     position: relative;
     text-align: center;
     color: white;
@@ -162,12 +163,23 @@ th {
 /*================================================
     COLUMN END
 ==================================================*/
-
+p {
+    background-color: gray;
+    color: rgb(253, 253, 19);
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
 P:hover {
     background-color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+
 }
 
 /*===================================================
