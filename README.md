@@ -16,7 +16,7 @@ This is a display of sample websites that I made with HTML and CSS.
 
 # Space Station 
 This page is an example home page for a Space travel company. It's styled using 
-CSS and contains a navbar, image containers, and a form.
+CSS and contains a navbar, image containers, and a form. 
 
 # Robot Companion
 This is an example home page for a Robot companion company. It's styled using
